@@ -29,7 +29,7 @@ def start(message):
 def webhook():
     bot.remove_webhook()
    
-    bot.set_webhook(url='https://<НАЗВАНИЕ_ПРИЛОЖЕНИЯ_HEROKU>.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://botik322.herokuapp.com/' + TOKEN)
     return "!", 200
 
 
